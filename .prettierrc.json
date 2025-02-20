@@ -1,0 +1,19 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "printWidth": 80,
+  "arrowParens": "avoid",
+  "jsxSingleQuote": false,
+  "singleQuote": true,
+  "semi": false,
+  "trailingComma": "es5",
+  "importOrder": ["^@/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "ignore": ["node_modules"],
+  "organizeImports": true,
+  "proseWrap": "always",
+  "quoteProps": "as-needed",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false
+}
