@@ -75,7 +75,6 @@ Access the API documentation at `http://localhost:3000/docs`.
 
 ## Routes
 
-- `POST /subscribe`: Subscribe to an event
 - `GET /ranking`: Get subscribers ranking
 - `GET /subscribers/:subscriberId/ranking/position`: Get subscriber position at
   ranking
