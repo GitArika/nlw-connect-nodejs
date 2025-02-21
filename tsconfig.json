@@ -18,8 +18,7 @@
       "@config/*": ["config/*"],
       "@database/*": ["database/*"],
       "@functions/*": ["functions/*"],
-      "@routes/*": ["routes/*"],
-      "@swagger/*": ["swagger/*"]
+      "@routes/*": ["routes/*"]
     }
   }
 }
