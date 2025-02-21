@@ -1,8 +1,9 @@
+import { fastify } from 'fastify'
+import { type ZodTypeProvider } from 'fastify-type-provider-zod'
+
 import { injectConfig } from '@config/app.config'
 import { injectRoutes } from '@config/routes.config'
 import { injectSwagger } from '@config/swagger.config'
-import { fastify } from 'fastify'
-import { type ZodTypeProvider } from 'fastify-type-provider-zod'
 import { env } from './env'
 
 export type FastifyInstanceType = typeof app

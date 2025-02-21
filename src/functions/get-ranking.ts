@@ -1,7 +1,8 @@
-import { redis } from '@database/redis/client'
-import { db } from '@src/database/drizzle/client'
-import { subscriptions } from '@src/database/drizzle/schema/subscriptions'
 import { inArray } from 'drizzle-orm'
+
+import { db } from '@database/drizzle/client'
+import { subscriptions } from '@database/drizzle/schema/subscriptions'
+import { redis } from '@database/redis/client'
 
 export async function getRanking() {
   const ranking = await redis.zrevrange('referral:ranking', 0, 2, 'WITHSCORES')
